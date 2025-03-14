@@ -1,0 +1,106 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1a2e;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 20vh 20vh 20vh 20vh;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.nav a {
+    color: yellow;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: rgb(0, 153, 255);
+}
+
+main {
+    padding: 50px 20px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content h1 span {
+    color: orangered;
+}
+
+.content p {
+    color: #f1f1f1;
+    line-height: 1,5;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-group input {
+    padding: 15px;
+    background-color: #2e2e3a;
+    color: #f1f1f1;
+    border-radius: 30px;
+    border: 2px solid #333;
+    width: 70%;
+}
+
+.form-group button {
+    padding: 15px 40px;
+    background-color: orangered;
+    color: #f1f1f1;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #e56b44;
+}
+
+.image-container {
+    max-width: 40%;
+}
+
+.image-container img {
+    border-radius: 20px;
+    width: 250%;
+    margin-left: 600px;
+    margin-top: -450px;
+}
